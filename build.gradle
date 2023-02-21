@@ -3,7 +3,7 @@ apply plugin: 'application'
 
 dependencies {
   // Use local dependencies in /lib
-  compile fileTree(dir: 'lib', include: ['*.jar'])
+  implementation fileTree(dir: 'lib', include: ['*.jar'])
 }
 
 // ----------------------------------------------------------------------------
